@@ -7,8 +7,6 @@ _Not all lines are created equal — so why does GitHub treat them that way?_
 
 ![](https://github.com/gjeanmart/gh-pr-line-breakdown/blob/main/docs/full.png?raw=true)
 
----
-
 ## The Problem
 
 You open a pull request and see "+3,214 lines changed." Your heart sinks a little. Is this a massive architectural change? A risky refactor that will take an hour to review carefully?
@@ -18,8 +16,6 @@ Then you start scrolling. Half of it is `yarn.lock`. Another 800 lines are gener
 GitHub's raw line count is a blunt instrument. It doesn't distinguish between lines a reviewer needs to think about and lines that are just noise. The result: reviewers either feel overwhelmed by a number that doesn't reflect real complexity, or they learn to ignore the count entirely — and sometimes miss things as a result.
 
 The same problem shows up for PR authors. When you're trying to communicate the scope of your work, a diff bloated by lock files or generated code undersells the real change. The signal gets lost.
-
----
 
 ## The Solution
 
@@ -65,8 +61,6 @@ Beyond the widget, the extension adds a few things that directly speed up the re
 
 **GitHub API fallback.** On very large PRs where GitHub lazy-loads files, the extension falls back to the GitHub REST API. Just add a personal access token in the settings for higher rate limits.
 
----
-
 ## What's Coming
 
 The extension is actively developed. The short-term roadmap includes:
@@ -75,8 +69,6 @@ The extension is actively developed. The short-term roadmap includes:
 - **GitLab and Gitea** — the problem isn't GitHub-specific
 - **Repository-specific config** — store a `.gh-pr-breakdown.json` in your repo so teams share the same category setup without each person configuring it manually
 - **LLM-assisted review** — longer-term, using the breakdown as context to surface which parts of a PR most need human attention
-
----
 
 ## Try It
 
