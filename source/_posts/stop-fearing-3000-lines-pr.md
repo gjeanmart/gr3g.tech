@@ -1,6 +1,6 @@
 ---
-title: Stop Fearing 3,000-Line PRs: A Chrome Extension for Honest PR Reviews
-date: 2026-03-20 09:52:00
+title: "Stop Fearing 3,000-Line PRs: A Chrome Extension for Honest PR Reviews"
+date: 2026-03-20
 ---
 
 _Not all lines are created equal — so why does GitHub treat them that way?_
