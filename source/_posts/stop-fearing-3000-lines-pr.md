@@ -1,5 +1,3 @@
-# Stop Fearing 3,000-Line PRs: A Chrome Extension for Honest PR Reviews
-
 ---
 title: Stop Fearing 3,000-Line PRs: A Chrome Extension for Honest PR Reviews
 date: 2026-03-20 09:52:00
@@ -7,7 +5,7 @@ date: 2026-03-20 09:52:00
 
 _Not all lines are created equal — so why does GitHub treat them that way?_
 
-![](https://github.com/gjeanmart/gh-pr-line-breakdown/blob/main/docs/full.png)
+![](https://github.com/gjeanmart/gh-pr-line-breakdown/blob/main/docs/full.png?raw=true)
 
 ---
 
