@@ -22,13 +22,24 @@ Last but not least, I am a proud husband & father, and happy owner of a lovely D
 
 ## Professional Experiences
 
-### [Safe](https://safe.global) • Tech Lead (Apr. 2024 to present)
+### [Safe](https://safe.global) • Principal Engineer (Apr. 2024 to present)
 
-[Safe](https://safe.global) is the leading smart account infrastructure in the Ethereum ecosystem, enabling secure, modular, and programmable asset management.
+[Safe](https://safe.global) is the leading smart account infrastructure in the Ethereum ecosystem, securing millions of smart accounts and a significant share of on-chain assets through modular, programmable smart accounts.
 
-As the Tech Lead for [Safenet](https://safe.global/safenet)¹, I am working on the development of a chain abstraction protocol that enhances the security and usability of smart accounts. Safenet enables seamless cross-chain transactions, collateralized execution, and advanced transaction validation. My role includes designing the architecture, leading development efforts, and ensuring robust security mechanisms to improve user experience and interoperability across blockchain networks.
+As a Principal Engineer, I provide technical leadership across the entire Safe stack (products, apps, backend, and infrastructure), owning architecture, security, scalability, and reliability while raising the engineering bar org-wide.
 
-_¹[<font size="1">Safe (dec. 2024) · Introducing Safenet</font>](https://safe.global/blog/introducing-safenet)_
+- Contributed to large, strategic, and business-critical projects, from early architecture and design through to production.
+- Led initiatives to modernize and scale core infrastructure (RPC, indexing, and data services), improving reliability, performance, and cost efficiency.
+- Drove research and development across privacy, security threat analysis, vendor assessments, and performance improvements, exploring emerging technologies to shape Safe's technical direction.
+- Drove security across the platform, from threat modeling and anti-abuse protection to hardening authentication and safeguarding user assets.
+- Responded to security and infrastructure incidents, leading teams to resolution and running postmortems that turn failures into lasting improvements.
+- Worked closely with product and business teams, acting as a bridge between engineering and strategy to align technical decisions with company goals.
+- Set engineering standards org-wide: architecture and RFC governance, plus observability and SLOs.
+- _**Technologies**: TypeScript, NestJS, Python, PostgreSQL, Redis, AWS, Terraform, DataDog, Ethereum, Solidity_
+
+Earlier at Safe, I was Tech Lead on [Safenet](https://safe.global/safenet), contributing to the architecture of its transaction-validation protocol.¹
+
+_¹[<font size="1">Safe Foundation (apr. 2026) · Safe Launches Safenet Beta</font>](https://safefoundation.org/blog/safe-launches-safenet-beta)_
 
 ### [Multis](https://multis.co) • CTO & Lead Engineer (Apr. 2020 to Apr. 2024)
 
