@@ -28,19 +28,18 @@ Last but not least, I am a proud husband & father, and happy owner of a lovely D
 
 As a Principal Engineer, I provide technical leadership across the entire Safe stack (products, apps, backend, and infrastructure), owning architecture, security, scalability, and reliability while raising the engineering bar org-wide.
 
-- Contributed to large, strategic, and business-critical projects, from early architecture and design through to production.
-- Led initiatives to modernize and scale core infrastructure (RPC, indexing, and data services), improving reliability, performance, and cost efficiency.
-- Drove research and development across privacy, security threat analysis, vendor assessments, and performance improvements, exploring emerging technologies to shape Safe's technical direction.
-- Drove security across the platform, from threat modeling and anti-abuse protection to hardening authentication and safeguarding user assets.
-- Responded to security and infrastructure incidents, leading teams to resolution and running postmortems that turn failures into lasting improvements.
-- Worked closely with product and business teams, acting as a bridge between engineering and strategy to align technical decisions with company goals.
-- Set engineering standards org-wide: architecture and RFC governance, plus observability and SLOs.
-- _**Technologies**: TypeScript, NestJS, Python, PostgreSQL, Redis, AWS, Terraform, DataDog, Ethereum, Solidity_
+• Contributed to large, strategic, and business-critical projects, from early architecture and design through to production.
+• Modernized and scaled core infrastructure (RPC, indexing, and data services), improving reliability, performance, and cost efficiency.
+• Led forward-looking R&D and vendor evaluations across privacy, cryptography, and performance, turning emerging research into practical technical direction for Safe.
+• Drove security across the platform, from threat modeling and anti-abuse protection to hardening authentication and safeguarding user assets.
+• Responded to security and infrastructure incidents, leading teams to resolution and running postmortems that turn failures into lasting improvements.
+• Worked closely with product and business teams, acting as a bridge between engineering and strategy to align technical decisions with company goals.
+• Set engineering standards org-wide: architecture and RFC governance, plus observability and SLOs.
+• _**Technologies**: TypeScript, NestJS, Python, PostgreSQL, Redis, AWS, Terraform, DataDog, Ethereum, Solidity_
 
 Earlier at Safe, I was Tech Lead on [Safenet](https://safe.global/safenet), contributing to the architecture of its transaction-validation protocol.¹
 
 _¹[<font size="1">Safe Foundation (apr. 2026) · Safe Launches Safenet Beta</font>](https://safefoundation.org/blog/safe-launches-safenet-beta)_
-
 ### [Multis](https://multis.co) • CTO & Lead Engineer (Apr. 2020 to Apr. 2024)
 
 [Multis](https://multis.co) (acquired by [Safe](https://safe.global)¹) is a B2B spending & treasury management platform for crypto-native businesses leveraging crypto-currencies and Decentralized Finance (DeFi)². <span style="color:blue">Trusted by 250+ businesses</span>
