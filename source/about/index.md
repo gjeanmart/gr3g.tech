@@ -110,7 +110,7 @@ _¹[<font size="1">https://lumera.com/en/news/lumera-acquires-and-invests-in-ai-
 • 🇬🇧 [Build your very own self-hosting platform with Raspberry Pi and K3S](/2020/04/12/build-your-very-own-self-hosting-platform-wi) Apr. 2020
 • 🇬🇧 [Use Elastic Stack to monitor Kubernetes](</2019/10/18/(15)-getting-started-with-elastic-stack-for-monit>) Oct. 2019
 • 🇬🇧 [Manage an Ethereum account with Java and Web3j](/2020/04/30/manage-an-ethereum-account-with-java-and-web3j) May 2020
-• 🇬🇧 [Multis integrates TheGraph to offer an even stronger multisig](https://medium.com/multis/multis-integrates-the-graph-to-offer-an-even-stronger-multisig-wallet-b590a4207f8e) Jul. 2020
+• 🇬🇧 [Multis integrates TheGraph to offer an even stronger multisig](/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig) Jul. 2020
 • _See more on [gr3g.tech/blog/](https://gr3g.tech/blog/)_
 
 ![](/images/favicon.ico)

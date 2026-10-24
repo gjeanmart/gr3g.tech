@@ -230,7 +230,7 @@ spec:
         app: spring-boot-simple
     spec:
       containers:
-        - image: gjeanmart/spring-boot-simple:0.0.1-SNAPSHOT
+        - image: spring-boot-simple:0.0.1-SNAPSHOT
           imagePullPolicy: Always
           name: spring-boot-simple
           env:

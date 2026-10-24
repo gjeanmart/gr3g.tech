@@ -153,8 +153,10 @@ $ docker run -it --name mahuta \
     -p 8040:8040 \
     -e MAHUTA_IPFS_HOST=ipfs \
     -e MAHUTA_ELASTICSEARCH_HOST=elasticsearch \
-    gjeanmart/mahuta
+    mahuta
 ```
+
+_Note: the pre-built image previously published on Docker Hub is no longer available. Build it yourself from the [Mahuta repository](https://github.com/ConsenSys/Mahuta) and tag it `mahuta`._
 
 #### Docker Compose
 
@@ -192,7 +194,7 @@ curl -X POST \
 curl -X POST \
   'http://localhost:8040/mahuta/index' \
   -H 'content-type: application/json' \
-  -d '{"content":"# Hello world,\n this is my first file stored on **IPFS**","indexName":"article","indexDocId":"hello_world","contentType":"text/markdown","index_fields":{"title":"Hello world","author":"Gregoire Jeanmart","votes":10,"date_created":1518700549,"tags":["general"]}}'
+  -d '{"content":"# Hello world,\n this is my first file stored on **IPFS**","indexName":"article","indexDocId":"hello_world","contentType":"text/markdown","index_fields":{"title":"Hello world","author":"Gr3g","votes":10,"date_created":1518700549,"tags":["general"]}}'
 ```
 
 -   *Success Response:*
@@ -208,7 +210,7 @@ curl -X POST \
   "pinned": true,
   "indexFields": {
     "title": "Hello world",
-    "author": "Gregoire Jeanmart",
+    "author": "Gr3g",
     "votes": 10,
     "createAt": 1518700549,
     "tags": [
@@ -228,7 +230,7 @@ curl -X POST \
 curl -X POST \
  'http://localhost:8040/mahuta/query/search?index=article' \
  -H 'content-type: application/json' \
- -d '{"query":[{"name":"title","operation":"CONTAINS","value":"Hello"},{"name":"author.keyword","operation":"EQUALS","value":"Gregoire Jeanmart"},{"name":"votes","operation":"GT","value":"5"}]}'
+ -d '{"query":[{"name":"title","operation":"CONTAINS","value":"Hello"},{"name":"author.keyword","operation":"EQUALS","value":"Gr3g"},{"name":"votes","operation":"GT","value":"5"}]}'
 ```
 
 -   *Success Response:*
@@ -255,7 +257,7 @@ curl -X POST \
           "contentType": "text/markdown",
           "pinned": true,
           "indexFields": {
-            "author": "Gregoire Jeanmart",
+            "author": "Gr3g",
             "votes": 10,
             "title": "Hello world",
             "createAt": 1518700549,
