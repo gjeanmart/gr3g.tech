@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="At Multis, we’re very proud of the redesign of our crypto-first business banking app. As part of this redesign, we’re especially excited about our new integration with The Graph to populate our fronte">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Multis integrates The Graph to offer an even stronger multisig wallet">
+<meta property="og:url" content="https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/index.html">
+<meta property="og:site_name" content="Gr3g">
+<meta property="og:description" content="At Multis, we’re very proud of the redesign of our crypto-first business banking app. As part of this redesign, we’re especially excited about our new integration with The Graph to populate our fronte">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-07-01T10:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-24T12:13:27.690Z">
+<meta property="article:author" content="Gr3g">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon.ico" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico">
+        
+      
+    
+    <!-- title -->
+    <title>Multis integrates The Graph to offer an even stronger multisig wallet</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/blog/">Blog</a></li>
+         
+          <li><a href="/guides/">Guides</a></li>
+         
+          <li><a href="/about/">About me</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2021/01/20/the-4-day-workweek/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2020/05/02/monitor-your-geth-node-with-google-sheet/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&text=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&is_video=false&description=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Multis integrates The Graph to offer an even stronger multisig wallet&body=Check out this article: https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&name=Multis integrates The Graph to offer an even stronger multisig wallet&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&t=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Multis-provides-a-simple-amp-smooth-neobanking-experience"><span class="toc-number">1.</span> <span class="toc-text">Multis provides a simple &amp; smooth neobanking experience</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Streamlining-amp-strengthening-two-core-needs"><span class="toc-number">2.</span> <span class="toc-text">Streamlining &amp; strengthening: two core needs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-The-Graph"><span class="toc-number">3.</span> <span class="toc-text">What is The Graph?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#The-Graph-amp-Multis-a-better-UI-starts-on-the-inside"><span class="toc-number">4.</span> <span class="toc-text">The Graph &amp; Multis: a better UI starts on the inside</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        <header id="header">
+  <a href="/">
+  
+    
+      <div id="logo" style="background-image: url(/images/logo.png);"></div>
+    
+  
+    <div id="title">
+      <h1>Gr3g</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+       
+        <li><a href="/">Home</a></li>
+       
+        <li><a href="/blog/">Blog</a></li>
+       
+        <li><a href="/guides/">Guides</a></li>
+       
+        <li><a href="/about/">About me</a></li>
+      
+    </ul>
+  </div>
+</header>
+
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Multis integrates The Graph to offer an even stronger multisig wallet
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Gr3g</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-07-01T10:00:00.000Z" itemprop="datePublished">2020-07-01</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>At <a target="_blank" rel="noopener" href="https://multis.co/">Multis</a>, we’re very proud of the redesign of our crypto-first business banking app. As part of this redesign, we’re especially excited about our new integration with <a target="_blank" rel="noopener" href="https://thegraph.com/">The Graph</a> to populate our frontend with real-time data from the Ethereum Blockchain.</p>
+<h3 id="Multis-provides-a-simple-amp-smooth-neobanking-experience"><a href="#Multis-provides-a-simple-amp-smooth-neobanking-experience" class="headerlink" title="Multis provides a simple &amp; smooth neobanking experience"></a>Multis provides a simple &amp; smooth neobanking experience</h3><p>Our wallet reconciles balances and transactions for hundreds of ERC20 tokens and is integrated with some of the most secured DeFi protocols such as <a target="_blank" rel="noopener" href="https://compound.finance/">Compound</a> (for earning interest), <a target="_blank" rel="noopener" href="https://www.tokensets.com/">TokenSets</a> (for investing ether in automated trading strategies), <a target="_blank" rel="noopener" href="https://kyber.network/">Kyber</a> (token exchange) and many more.</p>
+<p>One of our aspirations is to attract mainstream users by offering a simple and smooth neobanking experience for businesses dealing with crypto today and tomorrow. We’re quite proud of our elegant user interface ☺️</p>
+<h3 id="Streamlining-amp-strengthening-two-core-needs"><a href="#Streamlining-amp-strengthening-two-core-needs" class="headerlink" title="Streamlining &amp; strengthening: two core needs"></a>Streamlining &amp; strengthening: two core needs</h3><p>Multis is a dApp (Decentralized Application), meaning the core of the application lies on a client side (frontend) communicating in a trust-less manner with the Ethereum Blockchain and DeFi protocols. In order to enrich our wallet and provide the best crypto-banking experience, we chose to use a server-less database (<a target="_blank" rel="noopener" href="https://firebase.google.com/">Firebase</a>) to store metadata about accounts and transactions and remain backend-less (NB: no private keys are stored in this database).</p>
+<p>It can still be hard to keep track of Blockchain transactions, especially with dozens of smart-contracts (Multisig, ERC20 tokens, DeFi, etc.) to query in a not so friendly format (Remote Procedure Call or <code>rpc</code> format).</p>
+<p>Reading data directly from a smart-contract is also very restrictive due to some core principles of Ethereum and the EVM. Filters, pagination, or sorted lists are rarely implemented in Solidity because Blockchain developers prefer to focus on security and gas optimisation. That’s why we made the choice to use our internal database, which is very useful for storing metadata about accounts and transactions but is less than perfect when it comes to maintaining an accurate transaction history. Transactions can be submitted from outside or dropped and replaced, and users can sometimes close the browser before a transaction is mined. In the past we had some issues processing transactions, especially when network congestion was high. Reconciling a lost transaction was a pain point for us.</p>
+<p>What’s more, Ethereum and Blockchain represent a new powerful paradigm in terms of software architecture compared to traditional client/server applications. This new paradigm comes with a host of new concepts, terms, and libraries. New developers in the space usually need some time to get used to complex libraries like <a target="_blank" rel="noopener" href="https://github.com/ethereum/web3.js">web3js</a>, <a target="_blank" rel="noopener" href="https://github.com/ethers-io/ethers.js">etherjs</a> or <a target="_blank" rel="noopener" href="https://github.com/web3j/web3j">web3j</a> in comparison to standard well documented webservice protocols like RESTful or GraphQL. This long and difficult learning curve is not essential for growing a business and could be used somewhere else.</p>
+<p>We believe The Graph project can help us addressing those two points.</p>
+<h3 id="What-is-The-Graph"><a href="#What-is-The-Graph" class="headerlink" title="What is The Graph?"></a>What is The Graph?</h3><p><a target="_blank" rel="noopener" href="https://thegraph.com/">The Graph</a> is a middleware solution and protocol for indexing and querying Blockchain data with GraphQL. It provides a hosted service (you can also self-host if you want) to index one or several smart contract data into the schema of your choice and query those data via a standard fully-featured GraphQL API.</p>
+<p>Today, many projects get around the lack of functionalities offered by web3 libraries and smart-contracts using a centralised indexing service to consume Blockchain events in real time and store data in a database with a friendly format. This solution works well to improve developers and users experience but comes at a high price in development, cost, maintenance and trust.</p>
+<p>The Graph provides a ready-to-use framework (called Subgraph) to index and map data from Ethereum to a chosen format and exposes a GraphQL API without running a single backend server or database.</p>
+<p>This middleware data layer also addresses the lack of functionalities from smart contract calls, including filters, pagination and sorting available out-of-the-box.</p>
+<p>Finally as mentioned, The Graph is currently available as a hosted service, projects can also decide to self-host a node. Soon, a decentralised network will allow anyone to run a node to contribute indexing and query processing to the network building a data marketplace where nodes earn fees for their services.</p>
+<h3 id="The-Graph-amp-Multis-a-better-UI-starts-on-the-inside"><a href="#The-Graph-amp-Multis-a-better-UI-starts-on-the-inside" class="headerlink" title="The Graph &amp; Multis: a better UI starts on the inside"></a>The Graph &amp; Multis: a better UI starts on the inside</h3><p>This is why we decided to move forward with The Graph. We built a Subgraph to index and cache all the on-chain information available about our Multisig (wallet) and its transactions.</p>
+<p>One of the major benefits is to replace a complex transaction watcher mechanism and shift the operations of building an accurate transaction history to The Graph.</p>
+<p>It also means we shifted from a pure source of truth (Blockchain node) to The Graph but we trust the data exposed for the following reasons:</p>
+<ul>
+<li>Subgraph mappings only process data issued from the Blockchain (events, calls, transactions) and cannot be corrupted with external non-trusted information.</li>
+<li>The Graph node code is open-sourced and can be run by anyone (cf. decentralized network).</li>
+</ul>
+<p>Our Subgraph enables a standard (GraphQL) and real-time (websocket push) access to the Multisig data improving both users and developers experience.</p>
+<p>It is important for us to remain server-less and backend-less with a simple architecture and code base so we spend less time maintaining a complex infrastructure and more time focusing on our product and business growth.</p>
+<h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>Ethereum is a powerful but young technology. Developers can find it hard to build decentralized applications due to the difference of paradigm, lack of tools or learning content. However, as a community, Ethereum constantly succeeds to address pain points and evolve in the right direction attracting more developers in the space. The Graph is one of the tools making Ethereum more accessible and helping businesses like Multis build an even stronger product on top of Ethereum.</p>
+<p>If you’re interested in making the most of your company’s crypto, open an account at <a target="_blank" rel="noopener" href="https://multis.co/">Multis</a>.</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/blog/">Blog</a></li>
+         
+          <li><a href="/guides/">Guides</a></li>
+         
+          <li><a href="/about/">About me</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Multis-provides-a-simple-amp-smooth-neobanking-experience"><span class="toc-number">1.</span> <span class="toc-text">Multis provides a simple &amp; smooth neobanking experience</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Streamlining-amp-strengthening-two-core-needs"><span class="toc-number">2.</span> <span class="toc-text">Streamlining &amp; strengthening: two core needs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#What-is-The-Graph"><span class="toc-number">3.</span> <span class="toc-text">What is The Graph?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#The-Graph-amp-Multis-a-better-UI-starts-on-the-inside"><span class="toc-number">4.</span> <span class="toc-text">The Graph &amp; Multis: a better UI starts on the inside</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Conclusion"><span class="toc-number">5.</span> <span class="toc-text">Conclusion</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&text=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&is_video=false&description=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Multis integrates The Graph to offer an even stronger multisig wallet&body=Check out this article: https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&title=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&name=Multis integrates The Graph to offer an even stronger multisig wallet&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://gr3g.tech/2020/07/01/multis-integrates-the-graph-for-a-stronger-multisig/&t=Multis integrates The Graph to offer an even stronger multisig wallet"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2019-2026
+    Gr3g
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/blog/">Blog</a></li>
+        
+          <li><a href="/guides/">Guides</a></li>
+        
+          <li><a href="/about/">About me</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XMQMBKWMY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5XMQMBKWMY');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
